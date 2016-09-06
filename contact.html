@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+   	<meta charset="utf-8">
+    <title>Onetown</title>
+    <meta name='viewport' content='width=device-width'>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type='text/javascript' src="js/jquery.easing.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+     integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.1.0/css/bootstrap-slider.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.1.0/bootstrap-slider.js"></script>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="css/onetown.css" type="text/css">
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+
+  </head>
+
+
+  <body>
+    
+    <div id="wrapper">
+      
+      <!-- Header -->
+
+      <header id="site-header">
+          
+        <div id="top-bar">
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-3 col-md-3 col-sm-12 clearfix">
+                <div class="site-name"><b>. one</b>town</div>
+              </div>
+              <div class="col-lg-9 col-md-9 col-sm-12 clearfix">
+                <nav>
+                  <ul>
+                    <li><a href="index.html">about us</a></li>
+                    <li><a href="portfolio.html">work</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><span>contact</span></li>
+                  </ul>
+                </nav>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </header>
+
+      <!-- Contact -->
+
+      <section id="contact">
+        <div class="container">
+          
+          <h1 class="section-headline">contact us</h1>
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <form action="" id="contact-form">
+                <h2>your details</h2>
+                <input type="text" name='name' placeholder='name'>
+                <input type="text" name='email' placeholder='email address (highlighted field)'>
+                <input type="text" name='company' placeholder='company name'>
+                <div class="close-btn">
+                  <span>Close project estimate option to just say hello</span>
+                </div>
+                <div class="project-details">
+                  <h2>project estimate</h2>
+                  <span>1000$ - 42000$</span>
+                  <input id="project-estimate" data-slider-id='project-estimate_Slider' type="text" data-slider-min="1000" data-slider-max="42000" data-slider-step="1000" data-slider-value="20000"/>
+                  <h2>time frame</h2>
+                  <span>4 weeks - 10 weeks</span>
+                  <input id="time-frame" data-slider-id='time-frame_Slider' type="text" data-slider-min="4" data-slider-max="10" data-slider-step="1" data-slider-value="6"/>
+                </div>
+                <h2 class='project-area'>project area</h2>
+                <div class="checkbox-container clearfix">
+                  <label><input type="checkbox" name='area' value='mobile_apps'><div class="logo"></div><span>mobile apps</span></label>
+                  <label><input type="checkbox" name='area' value='web_design'><div class="logo"></div><span>web design &</br> development</span></label>
+                  <label><input type="checkbox" name='area' value='identity_creation'><div class="logo"></div><span>identity creation</span></label>
+                  <label><input type="checkbox" name='area' value='brand_promo'><div class="logo"></div><span>brand promotion</span></label>
+                  <label><input type="checkbox" name='area' value='graphic_design'><div class="logo"></div><span>graphic design</span></label>
+                  <label><input type="checkbox" name='area' value='motion_dymamics'><div class="logo"></div><span>motion dynamics</span></label>
+                </div>
+                <textarea name="description" id="description" placeholder='project description'></textarea>
+                <input type="submit" value='submit details'>
+              </form>
+            </div>
+
+            <div class="info col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <h2>contact info</h2>
+              <div class="adress"><span>.OneTown Inc</span></br> Street  1234, ST B</br> Country Name</br> Pin - 123456</br></div>
+              <div class="contacts">Tel:  (123) 456 7890</br>Email: info@domain.com</div>
+              <div class="social">
+                <a href="#"><i class="icon icon-twitter_grey"></i></a>
+                <a href="#"><i class="icon icon-facebook_grey"></i></a>
+                <a href="#"><i class="icon icon-pinterest_grey"></i></a>
+                <a href="#"><i class="icon icon-linkedin_grey"></i></a>
+                <a href="#"><i class="icon icon-skype_grey"></i></a>
+              </div>
+              <img src="img/office.jpg" alt="office">
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+      
+      <!-- Map -->
+
+      <section id="map">
+        <div class="container">
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d171468.12706831022!2d-86.40557490904399!3d37.00714346495798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d36.9806263!2d-86.4483023!5e0!3m2!1sru!2sru!4v1468172706272" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer id="main-footer">
+        <div class="container">
+          
+          <h1 class="section-headline">subscribe to our newsletter</h1>
+          
+          <form id='subscribe-form' action="">
+            <input type="text" placeholder='Enter your email adress'>
+            <input type="submit" value='submit'>
+          </form>
+          <span class="site-name"><b>.one</b>town</span>
+          <div class="social">
+            <a href="#"><i class="icon icon-twitter"></i></a>
+            <a href="#"><i class="icon icon-facebook"></i></a>
+            <a href="#"><i class="icon icon-pinterest"></i></a>
+            <a href="#"><i class="icon icon-linkedin"></i></a>
+            <a href="#"><i class="icon icon-skype"></i></a>
+          </div>
+
+        </div>
+
+        <div id="page-end">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <nav id='bottom-nav'>
+                  <ul>
+                    <li><a href="index.html">about us</a></li>
+                    <li><a href="portfolio.html">work</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><span>contact</span></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="contacts col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <span class="email">EMAIL: info@domain.com</span>
+                <span class="phone">ST.LOUIS:  (123)  456  7890</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </footer>   
+
+    </div>
+    
+    <!-- Js -->
+    <script type='text/javascript' src="js/main.js"></script>
+    <script type='text/javascript' src="js/bs_slider.js"></script>
+
+  </body>
+
+</html>    

@@ -1,0 +1,149 @@
+
+/*-------------------- Header --------------------- */
+
+#site-header {
+	background-color: #373c44;
+}
+
+#top-bar {
+	position: relative;
+	padding-bottom: 26px;
+}
+#top-bar nav li span {
+	opacity: 0.5;
+}
+
+/*-------------------- Quote button --------------------- */
+
+#quote {
+	text-align: center;
+	padding: 30px 0 35px 0;
+	background-color: #00c59e;
+}
+#quote a {
+	display: block;
+	font-size: 50px;
+	line-height: 55px;
+}
+#quote span {
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+	#quote a {
+		font-size: 28px;
+		line-height: 35px;
+	}
+
+}
+
+
+/*-------------------- Portfolio --------------------- */
+
+#portfolio .section-headline {
+	margin-top: 117px;
+}
+
+#portfolio-filter {
+	display: block;
+	margin-top: 70px;
+	text-align: center;
+	font-size: 0;
+	line-height: 0;
+}
+#portfolio-filter>li {
+	display: inline-block;
+	vertical-align: middle;
+	width: 14.28%;
+	margin-top: 15px;
+}
+#portfolio-filter>li>a {
+	display: block;
+	text-align: center;
+	height: 40px;
+	font-size: 15px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+#portfolio-filter>li>a.active {
+	box-shadow: 0 2px 2px 0px #8a9495;
+}
+#portfolio-filter>li:nth-child(1)>a {
+	color: #626262;
+	background-color: #eaeaea;
+}
+#portfolio-filter>li:nth-child(2)>a {
+	background-color: #00c59e;
+}
+#portfolio-filter>li:nth-child(3)>a {
+	background-color: #df4343;
+}
+#portfolio-filter>li:nth-child(4)>a {
+	background-color: #64b341;
+}
+#portfolio-filter>li:nth-child(5)>a {
+	background-color: #874ab6;
+}
+#portfolio-filter>li:nth-child(6)>a {
+	background-color: #ffa200;
+}
+#portfolio-filter>li:nth-child(7)>a {
+	background-color: #2f84e5;
+}
+
+#portfolio-works {
+	max-width: 1320px;
+	margin: 46px auto 0 auto;
+	padding-bottom: 112px;
+}
+.works-item {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	margin-top: 14px;
+	padding-bottom: 30px;
+}
+.works-item:nth-child(3n) {
+	margin-right: 0;
+}
+.works-item a {
+	display: block;
+	margin: 0 10px;
+}
+.works-item span {
+	display: block;
+	margin-top: 32px;
+	font-size: 19px;
+	line-height: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #060606;
+}
+
+@media screen and (max-width: 767px) {
+
+	#portfolio-filter>li {
+		width: 25%;
+	}
+	.works-item span {
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+
+@media screen and (max-width: 543px) {
+
+	#portfolio-filter>li {
+		width: 33.33%;
+	}
+	#portfolio-filter>li>a {
+		font-size: 12px;
+	}
+	.works-item {
+		width: 50%;
+	}
+}
+
+
